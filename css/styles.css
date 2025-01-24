@@ -135,9 +135,6 @@ body {
   display: none;
 }
 
-.header-menu-item {
-}
-
 .header-menu-link {
   display: block;
   font-weight: 500;
@@ -167,6 +164,10 @@ body {
 .header-menu-link:focus,
 .header-menu-link.current {
   color: #404bbf;
+}
+
+.header-address-list {
+  display: none;
 }
 
 .header-address-item {
@@ -316,6 +317,8 @@ body {
 .hero {
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -325,8 +328,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 72px;
-  padding-bottom: 72px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -381,9 +382,6 @@ body {
 
 /* =======FEATURES======== */
 
-.features {
-}
-
 .features-list {
   display: flex;
   gap: 72px;
@@ -396,9 +394,6 @@ body {
 
 .features-wrap {
   display: none;
-}
-
-.features-icon {
 }
 
 .features-subtitle {
@@ -420,9 +415,6 @@ body {
   background-color: #f4f4fd;
 }
 
-.team-title {
-}
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -435,9 +427,6 @@ body {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-img {
 }
 
 .team-bottom {
@@ -488,12 +477,6 @@ body {
 
 /* =======PORTFOLIO======== */
 
-.portfolio {
-}
-
-.portfolio-title {
-}
-
 .portfolio-list {
   display: flex;
   gap: 48px;
@@ -509,9 +492,6 @@ body {
 .portfolio-cover-wrap {
   position: relative;
   overflow: hidden;
-}
-
-.portfolio-img {
 }
 
 .portfolio-cover-text {
@@ -540,10 +520,6 @@ body {
   border-top: none;
 }
 
-.portfolio-subtitle {
-}
-.portfolio-text {
-}
 /* ==================== */
 
 /* =======FOOTER======== */
@@ -568,17 +544,11 @@ body {
   color: #f4f4fd;
 }
 
-.logo {
-}
-
 .footer-logo {
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
   text-align: center;
-}
-
-.logo-part {
 }
 
 .footer-text {
@@ -1133,6 +1103,18 @@ body {
     margin-bottom: 48px;
   }
 
+  .features-wrap {
+    width: 100%;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
   .features-list {
     gap: 24px;
     flex-wrap: nowrap;
@@ -1150,18 +1132,6 @@ body {
 
   .features-text {
     font-weight: 400;
-  }
-
-  .features-wrap {
-    width: 100%;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
   }
 
   .team-list {
