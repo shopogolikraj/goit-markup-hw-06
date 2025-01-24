@@ -1,4 +1,4 @@
-/* =========RESET========== */
+/* =============== Common Styles =============== */
 
 ul,
 ol {
@@ -41,10 +41,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/* ====================== */
-
-/* =========COMMON========== */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -90,9 +86,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ====================== */
+/* =============== /Common Styles =============== */
 
-/* =========HEADER========== */
+/* =============== Header Styles =============== */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -201,7 +197,9 @@ body {
   fill: #2f2f37;
 }
 
-/* =======MOB-MENU======== */
+/* =============== /Header Styles =============== */
+
+/* =============== Mobile menu Styles =============== */
 
 .mob-menu {
   position: fixed;
@@ -310,9 +308,9 @@ body {
   fill: #ffffff;
 }
 
-/* ==================== */
+/* =============== /Mobile menu Styles =============== */
 
-/* =======HERO======== */
+/* =============== Hero Styles =============== */
 
 .hero {
   max-width: 1440px;
@@ -378,9 +376,9 @@ body {
   background-color: #404bbf;
 }
 
-/* ==================== */
+/* =============== /Hero Styles =============== */
 
-/* =======FEATURES======== */
+/* =============== Features Styles =============== */
 
 .features-list {
   display: flex;
@@ -407,9 +405,9 @@ body {
   font-weight: 500;
 }
 
-/* ==================== */
+/* =============== /Features Styles =============== */
 
-/* =======TEAM======== */
+/* =============== Team Styles =============== */
 
 .team {
   background-color: #f4f4fd;
@@ -473,9 +471,9 @@ body {
   fill: #f4f4fd;
 }
 
-/* ==================== */
+/* =============== /Team Styles =============== */
 
-/* =======PORTFOLIO======== */
+/* =============== Portfolio Styles =============== */
 
 .portfolio-list {
   display: flex;
@@ -520,9 +518,9 @@ body {
   border-top: none;
 }
 
-/* ==================== */
+/* =============== /Portfolio Styles =============== */
 
-/* =======FOOTER======== */
+/* =============== Footer Styles =============== */
 
 .footer {
   background-color: #2e2f42;
@@ -674,9 +672,9 @@ body {
   background-color: #31d0aa;
 }
 
-/* ==================== */
+/* =============== /Footer Styles =============== */
 
-/* =======MODAL======== */
+/* =============== Modal Styles =============== */
 
 .backdrop {
   position: fixed;
@@ -885,9 +883,9 @@ body {
   background-color: #404bbf;
 }
 
-/* ==================== */
+/* =============== /Modal Styles =============== */
 
-/* =======TABLET======== */
+/* =============== Tablet Styles =============== */
 
 @media screen and (min-width: 768px) {
   .container {
@@ -1039,7 +1037,9 @@ body {
   }
 }
 
-/* =======DESCTOP======== */
+/* =============== /Tablet Styles =============== */
+
+/* =============== Desctop Styles =============== */
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1170,3 +1170,5 @@ body {
     width: 453px;
   }
 }
+
+/* =============== /Desctop Styles =============== */
