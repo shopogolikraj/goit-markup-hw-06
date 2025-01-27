@@ -131,10 +131,6 @@ body {
   display: none;
 }
 
-.header-address-list {
-  display: none;
-}
-
 .menu-open-btn {
   display: flex;
   align-items: center;
